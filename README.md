@@ -17,7 +17,8 @@
 ## ERD และ การ Run ผ่าน pgAdmin4
 
 ![ERD](image/Workshop2_2026-08-29T08_11_35.915Z.png)
-![Run success](<image/Screenshot 2026-08-29 161923.png>)
+![โค้ดที่ใส่ใน Query tool](<image/Screenshot 2026-08-29 163129.png>)
+![Run success](<image/Screenshot 2026-08-29 154612.png>)
 
 ## Diagram
 
