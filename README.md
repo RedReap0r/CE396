@@ -15,6 +15,7 @@
 | **billed_price** | Prescription | Simple Attribute | `NUMERIC(10, 2)` | ใช้เก็บบันทึกราคายาคงที่ ณ เวลาที่ทำการออกใบเสร็จ เพื่อบังคับให้ยอดเงินในประวัติการรักษาไม่เปลี่ยนแปลงย้อนหลัง หากราคายาปัจจุบันในตาราง Medicine ถูกปรับเปลี่ยน |
 
 ## Diagram and ERD
+
 ```mermaid
 erDiagram
     %% กำหนดความสัมพันธ์ (Relationships)
@@ -82,5 +83,3 @@ erDiagram
         int days
         decimal billed_price
     }
-
-![alt text](Workshop2_2026-08-29T08_11_35.915Z.png)
