@@ -14,7 +14,11 @@
 | **visit_no** | Visit | Partial Key | `INTEGER` | ทำหน้าที่เป็นคีย์บางส่วนใน Weak Entity โดยใช้ร่วมกับ `pet_id` เพื่อนับลำดับการเข้ารับบริการของสัตว์แต่ละตัวเป็นครั้งที่ 1, 2, 3... ตามที่ระบบต้องการ |
 | **billed_price** | Prescription | Simple Attribute | `NUMERIC(10, 2)` | ใช้เก็บบันทึกราคายาคงที่ ณ เวลาที่ทำการออกใบเสร็จ เพื่อบังคับให้ยอดเงินในประวัติการรักษาไม่เปลี่ยนแปลงย้อนหลัง หากราคายาปัจจุบันในตาราง Medicine ถูกปรับเปลี่ยน |
 
-## Diagram and ERD
+## ERD
+
+![alt text](Workshop2_2026-08-29T08_11_35.915Z.png)
+
+## Diagram
 
 ```mermaid
 erDiagram
@@ -83,6 +87,3 @@ erDiagram
         int days
         decimal billed_price
     }
-
-
-![alt text](Workshop2_2026-08-29T08_11_35.915Z.png)
