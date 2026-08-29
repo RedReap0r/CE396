@@ -83,3 +83,6 @@ erDiagram
         int days
         decimal billed_price
     }
+
+
+![alt text](Workshop2_2026-08-29T08_11_35.915Z.png)
